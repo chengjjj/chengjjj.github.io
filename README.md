@@ -1,80 +1,48 @@
-# Jekyll Instagram Portfolio Theme
+<h2>How to use your own domain for github page?</h2>
+<a href="https://www.youtube.com/watch?v=sTBY0D4gLg4" target="_blank">View my tutorials video here!</a>
+<br><br><br>
+<h2>How to use this template?</h2>
+You can fork this project to your own project. <br>
+Ex: fork and rename this repository to "yourname", you'll get the following address: yourusername.github.io/yourname
+<br>Or clone it to your local (by using gitGUI or from cmd line), modify something and push from local to your account. <br>
+<h2>How to change my title and something else? </h2>
+Go to <b>_config.yml</b> file and change to what you want, you can add some social account to your profile view.
 
-Clean, minimalistic and responsive portfolio theme for Jekyll powered by Bootstrap 4.
-For the portfolio section is used Instagram widget, but you can easily update it with another content source.
-
-## Live Demo
-
-https://portfolio-central.github.io/jekyll-instagram-portfolio-theme/
-![Jekyll Instagram Portfolio Theme](./screenshot.png "Jekyll Instagram Portfolio Theme")
-
-## Showcase
-
-The best usage examples:
-
-- [Pavel Guzenko](http://guzenko.org.ua)
-- [Victor Mikitenko](https://mikitenko-org-ua.github.io/site/)
-- [Anthony Fuentes](http://anthonyfuentes.us/)
-- [Serhii Grytsyshyn](https://grserhii.github.io/)
-
-To add your example: fork the repo, add new line to the list above and create a pull request.
-
-## Featured on
-
-- [Template.net](https://www.template.net/cms-templates/jekyll/jekyll-themes-templates/)
-- [JekyllThemes.org](http://jekyllthemes.org/themes/instagram-portfolio-theme/)
-
-## Powered by
-
-- [Jekyll](https://jekyllrb.com/)
-- [Bootstrap 4](http://v4-alpha.getbootstrap.com/)
-- [jQuery](https://jquery.com/)
-- [SnapWidget](https://snapwidget.com)
-- [Google Fonts: Lobster](https://fonts.google.com/specimen/Lobster)
-- [Font Awesome](http://fontawesome.io/)
-
-## Installation
-Install Jekyll:
+<h2>How to create new posts ?</h2>
+create new file in <b>_posts</b> folder, the name of the file should be begin with "yyyy-mm-dd" and separated by "-" (dash) and end with ".md" (markdown format). Ex: "2015-05-12-documents.md" <br>
+In the beginning of the content, copy and paste following:
 
 ```
-gem install jekyll bundler
+--- 
+layout: post
+title:
+description: "abcd"
+modified: 2014-12-23
+tags: [abc, def]
+---
 ```
 
-Install bundle dependiencies:
+<br>
+change your title, tag, modified date time...
+
+<br>
+<h2>How to post code?</h2>
+use: <br>
 
 ```
-bundle install
+{% highlight css %}
+{% endhighlight %}
 ```
 
-When finished, run the dev server:
+<br>
+you can change "css" to some other languages such as cpp, java, html...
+<br>
+<br>
+<h2>How to add or change menu on the left side? </h2>
+Go to <b> _includes/navigation.html </b>
 
-```
-bundle exec jekyll serve
-```
+<h2>How to change color or anything else in the fixed navigation bar at the top? </h2>
+Go to <b>_includes/head.html</b>
 
-or just:
-
-```
-jekyll serve
-
-```
-To stop the server, use `CTRL+C`.
-
-## Building front-end assets: styles and scripts
-
-Install module dependencies:
-
-```
-npm install
-```
-
-Run the build script to generate updated front-end assets:
-
-```
-npm run build
-```
-
-Watch for changes and automatically rebuild assets (`CTRL+C` to stop):
-```
-npm run watch
-```
+<h2>How about the background color?</h2>
+Go to <b>_sass/_page.scss</b>

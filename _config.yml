@@ -1,25 +1,70 @@
-# Site settings
-# in the templates available like {{ site.myvariable }}.
-title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
-email: cheng_jjj@163.com
-brand: ccc
-headline: 今天的每一分努力，明天都会把最好的给你
-description: > # this means to ignore newlines until "baseurl:"
-  New Site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-copyright: 2016 Whatever Company, Inc. All Rights Reserved.
+title:            Huy Nguyen
+description:      David Ng
+disqus_shortname: 
+reading_time:     false
+comments:         yes
+words_per_minute: 
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:
 
-# Build settings
-markdown: kramdown
+# Owner/author information
+owner:
+  name:           David Ng
+  avatar:         avatar.jpg
+  bio:            "The only thing that never changes is that everything always changes."
+  email:          
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        david15894
+  facebook:       david15894
+  github:         minhhuy150894
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +HuyNguyenMinhStormChaser
 
-# Account ids
-snapwidget: 247552
+# Background image to be tiled on all pages
+background: 
 
-# Contacts
-email: cheng_jjj@163.com
-phone: 13698007061
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
 
-# Tracking
-googleAnalitycsID: UA-83933844-1
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+highlighter: pygments
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
 
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 1
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
