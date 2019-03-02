@@ -2,7 +2,7 @@
 # in the templates available like {{ site.myvariable }}.
 title: Clean portfolio theme for Jekyll powered by Bootstrap 4.
 email: cheng_jjj@163.com
-brand: 程杰
+brand: ccc
 headline: 今天的每一分努力，明天都会把最好的给你
 description: > # this means to ignore newlines until "baseurl:"
   New Site
