@@ -9,7 +9,6 @@ modified: 2014-04-04
 
 <h2>Contact information</h2>
 
-> Name: <b>Huy Nguyen</b><br>
-> Email: <b>n@mhuy.xyz</b><br>
-> Mobile: +(84) 935 059109<br>
+> Name: <b>chengjjj</b><br>
+> Email: <b>cheng_jjj@163.com</b><br>
 > Languages: Vietnamese, American English<br>
