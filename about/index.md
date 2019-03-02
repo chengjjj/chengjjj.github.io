@@ -9,6 +9,6 @@ modified: 2014-04-04
 
 <h2>Contact information</h2>
 
-> Name: <b>chengjjj</b><br>
+> Name: <b>程杰</b><br>
 > Email: <b>cheng_jjj@163.com</b><br>
-> Languages: Vietnamese, American English<br>
+> Languages: Chinese, English<br>
