@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test]]></title>
-    <url>%2F2019%2F07%2F27%2Ftest%2F</url>
-    <content type="text"><![CDATA[assdstetsts]]></content>
+    <title><![CDATA[git push的时候报错remote: Permission to xxx/xxx.git denied to xxx.]]></title>
+    <url>%2F2019%2F07%2F27%2Fgit-push%E7%9A%84%E6%97%B6%E5%80%99%E6%8A%A5%E9%94%99remote-Permission-to-xxx-xxx-git-denied-to-xxx%2F</url>
+    <content type="text"><![CDATA[问题产生当push代码的时候出现Permission问题 问题原因看报错remote: Permission to chengjjj/xxx.github.io.git denied to xxx.应该是本地git配置和自己仓库配置不一致导致的。但是自己再三核实的git配置，确保配置程池然后看是windows系统的控制面板中的凭据管理记录了另一个github账号需要在控制面板 -&gt; 所有控制面板中更改原来的github配置]]></content>
       <categories>
-        <category>test</category>
+        <category>Git</category>
       </categories>
       <tags>
-        <tag>test</tag>
+        <tag>问题</tag>
       </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F07%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
   <entry>
     <title><![CDATA[python正则表达式]]></title>
