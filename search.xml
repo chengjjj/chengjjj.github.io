@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test]]></title>
-    <url>%2F2019%2F07%2F27%2Ftest%2F</url>
-    <content type="text"><![CDATA[assdstetsts]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F07%2F27%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[python正则表达式]]></title>
     <url>%2F2019%2F07%2F24%2Fpython%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%2F</url>
     <content type="text"><![CDATA[概括字符集#\d（[0-9]） \D（[^0-9]） #\w（[A-Za-z_0-9]） \W ([^A-Za-z_0-9]) #.表示除了换行符的所有字符 #以python为例 import re a = &apos;python 11\t11java&amp;1223\nh\rp&apos; r = re.findall(&apos;\w&apos;, a) print(r)数量词#以python为例 import re a = 'python 11\t11java&amp;1223\nh\rp' #默认贪婪模式 r = re.findall('[a-z]{3,6}', a) #非贪婪模式 r1 = re.findall('[a-z]{3,6}?', a) # *匹配0次或者无限多次 a = 'pytho0npython1pythonn2' r2 = re.findall('python*', a) # +匹配1次或者无限多次 a = 'pytho0npython1pythonn2' r2 = re.findall('python+', a) # ?匹配0次或者1次 a = 'pytho0npython1pythonn2' r2 = re.findall('python?', a) print(r) 边界匹配import re qq = '10000000001' r = re.findall('^\d{4,8}$', qq) r = re.findall('000$', qq)#显示为空 print(r) 中文范围 UTF-8 (Unicode) \u4e00-\u9fa5 (中文) \x3130-\x318F (韩文) \xAC00-\xD7A3 (韩文) \u0800-\u4e00 (日文)]]></content>
